@@ -11,7 +11,7 @@ AgriSmart is a Python-based project that uses *Sentinel-2 satellite imagery* to 
 
 ## 📁 Project Structure
 
----
+```
 
 AgriSmart/
 │
@@ -43,7 +43,7 @@ AgriSmart/
 yaml
 Copy code
 
----
+```
 
 ## ⚙ Setup Instructions
 
