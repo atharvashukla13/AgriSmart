@@ -40,8 +40,6 @@ AgriSmart/
 │
 └── environment.yml
 
-yaml
-Copy code
 
 ```
 
