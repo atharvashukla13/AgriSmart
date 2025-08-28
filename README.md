@@ -9,7 +9,7 @@ AgriSmart is a Python-based project that uses *Sentinel-2 satellite imagery* to 
 
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 
@@ -60,7 +60,10 @@ Install additional packages (if needed):
 bash
 Copy code
 pip install rasterio numpy matplotlib
-📝 Notebooks Overview
+
+
+## ⚙ Notebooks Overview
+
 01_read_visualize.ipynb
 
 Reads Sentinel-2 bands (.jp2 files).
@@ -83,7 +86,8 @@ Classifies potato crop growth stages using NDVI thresholds.
 
 Generates color-coded growth stage maps (Early, Mid, Late).
 
-📦 Source Code (src/)
+## ⚙ Source Code (src/)
+
 read_band.py – Functions to read and resample Sentinel-2 bands.
 
 compute_indices.py – NDVI & NDRE computation.
@@ -94,13 +98,10 @@ nutrient_mapping.py – Map nutrient health zones using NDVI/NDRE.
 
 utils.py – Helper functions for file handling and plotting.
 
-⚡ Usage
-Open the notebooks in Jupyter:
+## ⚙ Usage
 
-bash
-Copy code
-jupyter notebook notebooks/
-Run the notebooks in order:
+Open the notebooks in Jupyter:
+```
 
 01_read_visualize.ipynb → generates RGB composite.
 
@@ -108,7 +109,11 @@ Run the notebooks in order:
 
 03_growth_stage_classification.ipynb → generates growth stage maps.
 
-📊 Output
+```
+
+## ⚙ Output
+
+
 RGB_composite.png – True color satellite view.
 
 NDVI.png – Vegetation index map.
@@ -117,26 +122,21 @@ NDRE.png – Nutrient stress map.
 
 Growth_Stages.png – Growth stage classification map.
 
-🛠 Requirements
+## ⚙ Requirements
 Python 3.10+
 
 Conda environment (s2env)
 
 Libraries: rasterio, numpy, matplotlib, scipy
 
-💡 Notes
+Notes
 Make sure all .jp2 files from Sentinel-2 are placed under notebooks/IMG_DATA/ in their respective resolutions (R10m, R20m, R60m).
 
 Paths in notebooks are set relative to the notebooks/ directory.
 
-📜 License
+License
 This project is open-source and free to use for educational and research purposes.
 
-yaml
-Copy code
 
 ---
 
-If you want, I can also make a *shorter “competition-ready” README* that’s 1 page long and focuses just on *problem statement, workflow, and outputs*, suitable for submission.  
-
-Do you want me to do that?
