@@ -7,9 +7,11 @@ AgriSmart is a Python-based project that uses *Sentinel-2 satellite imagery* to 
 3. Classifies *growth stages* of potato crops.
 4. Maps *nutrient health zones* to optimize fertilization and irrigation.
 
----
+
 
 ## 📁 Project Structure
+
+---
 
 AgriSmart/
 │
