@@ -29,29 +29,29 @@ AgriSmart addresses these problems by leveraging IoT, remote sensing, and machin
 ## App Screenshots
 
 ### Home & Dashboard
-![Screenshot1](screenshots/Screenshot_20250905_101249.png)
-![Screenshot2](screenshots/Screenshot_20250905_101353.png)
-![Screenshot3](screenshots/Screenshot_20250905_103503.png)
+![Screenshot1](Screenshots/Screenshot_20250905_101249.png)
+![Screenshot2](Screenshots/Screenshot_20250905_101353.png)
+![Screenshot3](Screenshots/Screenshot_20250905_103503.png)
 <!-- Repeat for all 17 app screenshots -->
-![Screenshot17](screenshots/Screenshot_20250905_103516.png)
+![Screenshot17](Screenshots/Screenshot_20250905_103516.png)
 
 
-![Screenshot17](screenshots/Screenshot_20250905_093205.png)
-![Screenshot17](screenshots/Screenshot_20250905_093212.png)
-![Screenshot17](screenshots/Screenshot_20250905_093217.png)
-![Screenshot17](screenshots/Screenshot_20250905_103621.png)
-![Screenshot17](screenshots/Screenshot_20250905_103629.png)
+![Screenshot17](Screenshots/Screenshot_20250905_093205.png)
+![Screenshot17](Screenshots/Screenshot_20250905_093212.png)
+![Screenshot17](Screenshots/Screenshot_20250905_093217.png)
+![Screenshot17](Screenshots/Screenshot_20250905_103621.png)
+![Screenshot17](Screenshots/Screenshot_20250905_103629.png)
 
-![Screenshot17](screenshots/Screenshot_20250905_103647.png)
-![Screenshot17](screenshots/Screenshot_20250905_103713.png)
-![Screenshot17](screenshots/Screenshot_20250905_103722.png)
-![Screenshot17](screenshots/Screenshot_20250905_103816.png)
+![Screenshot17](Screenshots/Screenshot_20250905_103647.png)
+![Screenshot17](Screenshots/Screenshot_20250905_103713.png)
+![Screenshot17](Screenshots/Screenshot_20250905_103722.png)
+![Screenshot17](Screenshots/Screenshot_20250905_103816.png)
 
 
 
-![Screenshot17](screenshots/Screenshot_20250905_103751.png)
-![Screenshot17](screenshots/Screenshot_20250905_103731.png)
-![Screenshot17](screenshots/Screenshot_20250905_103823.png)
+![Screenshot17](Screenshots/Screenshot_20250905_103751.png)
+![Screenshot17](Screenshots/Screenshot_20250905_103731.png)
+![Screenshot17](Screenshots/Screenshot_20250905_103823.png)
 
 
 
