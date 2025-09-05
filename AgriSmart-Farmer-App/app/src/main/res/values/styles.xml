@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App default theme -->
+    <style name="Theme.AgriSmart" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- your normal theme settings here -->
+    </style>
+
+    <!-- Transparent / translucent theme for loading screen -->
+    <style name="Theme.App.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

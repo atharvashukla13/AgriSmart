@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:padding="16dp"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NDVIActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnPick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pick Image" />
+
+        <ImageView
+            android:id="@+id/imageInput"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:background="#ddd" />
+
+        <Button
+            android:id="@+id/btnGenerate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Generate NDVI / NDRE / Nutrient"
+            android:layout_marginTop="10dp" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/labelNdvi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NDVI"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:id="@+id/imageNdvi"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:background="#ddd" />
+
+        <TextView
+            android:id="@+id/labelNdre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NDRE"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:id="@+id/imageNdre"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:background="#ddd" />
+
+        <TextView
+            android:id="@+id/labelNutrient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nutrient Map"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:id="@+id/imageNutrient"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:background="#ddd" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Maps"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+</ScrollView>
