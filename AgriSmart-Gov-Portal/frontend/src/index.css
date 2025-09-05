@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 152 255 152;
+    --color-accent-brown: 139 94 60;
+    --color-accent-blue: 135 206 235;
+  }
+  body {
+    @apply text-gray-900 bg-white antialiased;
+  }
+}
